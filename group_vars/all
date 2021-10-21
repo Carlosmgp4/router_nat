@@ -1,0 +1,14 @@
+#config /network/interfaces
+# router
+red_aislada: 10.0.0.0
+interface_nat: eth1
+interface_aislada: eth2
+address: 10.0.0.10
+mask: 255.255.255.0
+
+#cliente
+address2: 10.0.0.12
+mask2: 255.255.255.0
+network: 10.0.0.0
+broadcast: 10.0.0.255
+gateway: 10.0.0.10
